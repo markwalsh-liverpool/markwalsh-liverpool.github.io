@@ -1,6 +1,6 @@
 ---
 layout: post
-category : development, c#
+category : development
 tagline: "This is a test post"
 tags : [development, c#]
 ---
