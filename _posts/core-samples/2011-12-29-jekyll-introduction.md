@@ -1,8 +1,8 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+category : development, c#
+tagline: "This is a test post"
+tags : [development, c#]
 ---
 {% include JB/setup %}
 
