@@ -16,6 +16,9 @@ public class MyClass
 {
   public MyClass()
   {
+      public void Tester() {
+        return null;
+      }
   }
 }
 {% endhighlight %}
