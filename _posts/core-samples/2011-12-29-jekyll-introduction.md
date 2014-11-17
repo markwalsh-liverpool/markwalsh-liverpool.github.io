@@ -11,6 +11,15 @@ Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview
 
+```csharp 
+public class MyClass
+{
+  public MyClass()
+  {
+  }
+}
+```
+
 ### What is Jekyll?
 
 Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
