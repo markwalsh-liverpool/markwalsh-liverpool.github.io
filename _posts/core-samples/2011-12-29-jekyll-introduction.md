@@ -11,14 +11,14 @@ Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview
 
-```csharp 
+{% highlight csharp %}
 public class MyClass
 {
   public MyClass()
   {
   }
 }
-```
+{% endhighlight %}
 
 ### What is Jekyll?
 
