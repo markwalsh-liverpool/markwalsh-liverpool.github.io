@@ -182,7 +182,7 @@ If you define more than one category you are defining a category hierarchy "set"
 Example:
 
     ---
-    title :  Hello World
+    title :  Tester
     categories : [lessons, beginner]
     ---
 
