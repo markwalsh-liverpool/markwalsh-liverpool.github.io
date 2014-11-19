@@ -16,10 +16,15 @@ tagline:
   <br>
   <h3>Languages/Frameworks Used</h3>
   <span class="devicons devicons-dotnet"></span>
+  <span class="devicons devicons-javascript"></span>
+  <span class="devicons devicons-git"></span>
+  <span class="devicons devicons-github_full"></span>
+  <span class="devicons devicons-msql_server"></span>
+  <span class="devicons devicons-mongodb"></span>
   <br>
   <h3>Bio</h3>
   <br>
-  <p>Liverpool based developer, mostly C#, Javascript but I dip my toes in various other technologies</p>	
+  <p>26, Liverpool UK</p>	
   <br>
 	<ul class="posts">
 		<h4>Latest Post</h4>
