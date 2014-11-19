@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Home
-tagline: Supporting tagline
+tagline: 
 ---
 {% include JB/setup %}
 
 
-## About
-
-<img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
+<div class="row text-center">
+  <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
+</div>
 
 <ul class="posts">
   {% for post in site.posts %}
