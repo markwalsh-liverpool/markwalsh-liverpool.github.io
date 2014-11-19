@@ -8,8 +8,7 @@ tagline: Supporting tagline
 
 ## About
 
-<img src="{{ BASE_PATH }}/images/me.jpg" alt="Me" />
-<img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
+<img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
 
 <ul class="posts">
   {% for post in site.posts %}
