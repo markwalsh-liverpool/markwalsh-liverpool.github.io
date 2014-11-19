@@ -8,7 +8,7 @@ tagline: Supporting tagline
 
 ## About
 
-![Me]({{ site.url }}/assets/images/me.jpg)
+<img src="{{ ASSET_PATH }}/images/me.jpg" alt="Me" />
 
 <ul class="posts">
   {% for post in site.posts %}
