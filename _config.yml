@@ -9,13 +9,12 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : Mark Walsh Development
-tagline: Thoughts on development
+tagline: 
 author :
   name : Mark walsh
   email : markwalsh-liverpool@googlemail.com
   github : markwalsh-liverpool	
   twitter : markchriswalsh
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
