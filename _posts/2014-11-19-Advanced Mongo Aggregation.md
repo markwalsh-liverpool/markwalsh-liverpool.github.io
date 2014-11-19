@@ -3,7 +3,6 @@ layout: post
 category : development
 tagline: 
 tags : [development, c#]
-title : Advanced Mongo Aggregation C#
 ---
 {% include JB/setup %}
 
