@@ -44,8 +44,11 @@ tagline:
   <h3>Bio</h3>
   <br>
   <p>26, Liverpool, United Kingdom</p>	
-</div>
 
+
+
+</div>
+<div>
 	<ul class="posts">
 		<h4>Latest Post</h4>
 		{% for post in site.posts limit:1 %}
@@ -57,6 +60,7 @@ tagline:
 		{% endfor %}
 		
 	</ul>
+</div>
 
 
 
