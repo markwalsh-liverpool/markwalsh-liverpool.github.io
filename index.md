@@ -20,7 +20,7 @@ tagline:
   <span class="devicons devicons-git"></span>
   <span class="devicons devicons-github_full"></span>
   <span class="devicons devicons-mongodb"></span>
-  <span class="devicons devicons-scrum" alt="Scrum"></span>
+  <span title="Scrum" class="devicons devicons-scrum"></span>
   <span class="devicons devicons-ruby_rough"></span>
   <span class="devicons devicons-ruby_on_rails"></span>
   <span class="devicons devicons-responsive"></span>
