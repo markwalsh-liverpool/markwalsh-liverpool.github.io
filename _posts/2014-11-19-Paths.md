@@ -1,7 +1,7 @@
 ---
 layout: post
 category : development
-tagline: "This is a test post"
+tagline: 
 tags : [development, c#]
 ---
 {% include JB/setup %}
