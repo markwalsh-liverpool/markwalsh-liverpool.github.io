@@ -44,12 +44,7 @@ tagline:
   <h3>Bio</h3>
   <br>
   <p>26, Liverpool, United Kingdom</p>	
-
-
-
-</div>
-<div>
-	<ul style="padding: 0 !important;margin: 0 !important;">
+  <ul style="padding: 0 !important;margin: 0 !important;">
 		<h4>Latest Post</h4>
 		{% for post in site.posts limit:1 %}
 			<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
@@ -61,6 +56,3 @@ tagline:
 		
 	</ul>
 </div>
-
-
-
