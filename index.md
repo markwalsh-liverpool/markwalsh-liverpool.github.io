@@ -9,7 +9,7 @@ tagline:
 <div class="row text-center">
   <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
   <br>
-  <a href="http://stackoverflow.com/users/1001408/mark-walsh"><span class="devicons devicons-stackoverflow" style="height:16px;width:16px"></span></a>
+  <a class="devicon-link" href="http://stackoverflow.com/users/1001408/mark-walsh"><span class="devicons devicons-stackoverflow" style="height:16px;width:16px"></span></a>
   <br>
   <p>Liverpool based developer, mostly C#, Javascript but I dip my toes in various other technologies</p>	
   <br>
