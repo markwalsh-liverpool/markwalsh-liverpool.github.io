@@ -9,7 +9,7 @@ tagline:
 <div class="row text-center">
   <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
   <br>
-  <a href="#/singleicon/django"><span class="smallicon devicons devicons-django"></span></a>
+  <span class="devicons devicons-django"></span>
   <br>
   <p>Liverpool based developer, mostly C#, Javascript but I dip my toes in various other technologies</p>	
   <br>
