@@ -42,7 +42,6 @@ tagline:
   <span class="devicons devicons-angular"></span>
   <br>
   <h3>Bio</h3>
-  <br>
   <p>26, Liverpool, United Kingdom</p>	
   <ul style="padding: 0 !important;margin: 0 !important;">
 		<h4>Latest Post</h4>
