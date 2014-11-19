@@ -19,15 +19,16 @@ tagline:
   <br>
   <span class="devicons devicons-dotnet"></span>
   <br>
+  <h4>Bio</h4>
   <br>
   <p>Liverpool based developer, mostly C#, Javascript but I dip my toes in various other technologies</p>	
   <br>
 	<ul class="posts">
-		<h6>Latest Post</h6>
+		<h5>Latest Post</h5>
 		{% for post in site.posts limit:1 %}
 			<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 		{% endfor %}
-		<h6>Other Recent Posts</h6>
+		<h5>Other Recent Posts</h5>
 		{% for post in site.posts offset:1 limit:2 %}
 			<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 		{% endfor %}
