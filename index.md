@@ -9,11 +9,11 @@ tagline:
 <div class="row text-center">
   <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
   <br>
-  <h3>Technology Profiles</h3>
+  <h3>Profiles</h3>
   <a class="devicon-link" href="http://stackoverflow.com/users/1001408/mark-walsh"><span class="devicons devicons-stackoverflow"></span></a>
   <a class="devicon-link" href="https://github.com/markwalsh-liverpool"><span class="devicons devicons-github_badge"></span></a>
   <br>
-  <h3>XP in the following</h3>
+  <h3>XP</h3>
   <span class="devicons devicons-netmagazine"></span>
   <span class="devicons devicons-visualstudio"></span>
   <span class="devicons devicons-msql_server"></span>
