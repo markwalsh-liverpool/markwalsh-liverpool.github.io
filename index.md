@@ -2,6 +2,7 @@
 layout: homepage
 title: Home
 tagline: 
+description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascript
 ---
 {% include JB/setup %}
 

@@ -4,6 +4,7 @@ category : development
 tagline: 
 tags : [development, mongodb]
 title : Mongo Scripting
+description: Mongo scripting
 ---
 {% include JB/setup %}
 

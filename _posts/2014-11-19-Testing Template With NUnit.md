@@ -4,6 +4,7 @@ category : development
 tagline: 
 tags : [development, c#, nunit]
 title : Testing Template With NUnit
+description: Testing Template With NUnit
 ---
 {% include JB/setup %}
 
