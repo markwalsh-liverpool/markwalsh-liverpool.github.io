@@ -14,32 +14,24 @@ tagline:
   <a class="devicon-link" href="https://github.com/markwalsh-liverpool"><span class="devicons devicons-github_badge"></span></a>
   <br>
   <h3>XP</h3>
-  <span class="devicons devicons-netmagazine"></span>
-  <span class="devicons devicons-visualstudio"></span>
-  <span class="devicons devicons-msql_server"></span>
-  <span class="devicons devicons-git"></span>
-  <span class="devicons devicons-github_full"></span>
-  <span class="devicons devicons-mongodb"></span>
-  <span title="Scrum" class="devicons devicons-scrum"></span>
-  <span class="devicons devicons-ruby_rough"></span>
-  <span class="devicons devicons-ruby_on_rails"></span>
-  <span class="devicons devicons-responsive"></span>
-  <span class="devicons devicons-yeoman"></span>
-  <span class="devicons devicons-redis"></span>
-  <span class="devicons devicons-chrome"></span>
-  <span class="devicons devicons-npm"></span>
-  <span class="devicons devicons-gulp"></span>
-  <span class="devicons devicons-bower"></span>
-  <span class="devicons devicons-grunt"></span>
-  <span class="devicons devicons-jekyll_small"></span>
-  <span class="devicons devicons-html5"></span>
-  <span class="devicons devicons-css3_full"></span>
-  <span class="devicons devicons-bootstrap"></span>
-  <span class="devicons devicons-markdown"></span>
-  <span class="devicons devicons-nodejs_small"></span>
-  <span class="devicons devicons-javascript"></span>
-  <span class="devicons devicons-jquery"></span>
-  <span class="devicons devicons-angular"></span>
+  <span title=".Net" class="devicons devicons-netmagazine"></span>
+  <span title="Visual Studio" class="devicons devicons-visualstudio"></span>
+  <span title="MSSQL" class="devicons devicons-msql_server"></span>
+  <span title="Github" class="devicons devicons-github_full"></span>
+  <span title="MongoDb" class="devicons devicons-mongodb"></span>
+  <span title="Ruby" class="devicons devicons-ruby_rough"></span>
+  <span title="Responsive Design" class="devicons devicons-responsive"></span>
+  <span title="NPM" class="devicons devicons-npm"></span>
+  <span title="Gulp" class="devicons devicons-gulp"></span>
+  <span title="Bower" class="devicons devicons-bower"></span>
+  <span title="Grunt" class="devicons devicons-grunt"></span>
+  <span title="Jekyll" class="devicons devicons-jekyll_small"></span>
+  <span title="HTML5" class="devicons devicons-html5"></span>
+  <span title="CSS3" class="devicons devicons-css3_full"></span>
+  <span title="Bootstrap" class="devicons devicons-bootstrap"></span>
+  <span title="Javascript" class="devicons devicons-javascript"></span>
+  <span title="JQuery" class="devicons devicons-jquery"></span>
+  <span title="AngularJS" class="devicons devicons-angular"></span>
   <br>
   <h3>Bio</h3>
   <p>26, Liverpool, United Kingdom</p>
