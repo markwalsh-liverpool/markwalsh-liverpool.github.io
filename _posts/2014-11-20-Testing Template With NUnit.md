@@ -18,7 +18,7 @@ I've created a template for unit tests when using NUnit, I find it's really usef
 
 	1. Having a single point of object creation means it's really, really easy when refactoring signatures (especially if you don't have ReSharper)
 	2. It reads well and it's intent is pretty clear i.e. the naming of the tests is very close to natural language 
-	3. The [SetUp] and [TearDown] methods allow you to adequetely prepare before each test which is really handy if you're testing something to do with IO
+	3. The [SetUp] and [TearDown] methods allow you to adequately prepare before each test which is really handy if you're testing something to do with IO
 
 There's no reason this can't be extended or even have this as a generic base class either.
 
@@ -51,7 +51,7 @@ namespace NUnitExample
         }
 
         /// <summary>
-        /// Single method to create object so if the signature changes, it only needs to be changed in one place
+        /// Single method to create object so if the signature changes it only needs to be changed in one place
         /// </summary>
         /// <returns>Example class object</returns>
         private ExampleClass CreateObject()
@@ -65,7 +65,7 @@ namespace NUnitExample
         [Test]
         public void GivenIHaveSomething_WhenIDoSomething_ThenSomethingShouldHappen()
         {
-            // Given (setting up the mocks and the object itself to be tested
+            // Given (setting up the mocks and the object itself to be tested)
             const int mockedExampleValue = 3;
             const int expectedResult = 16;
 
