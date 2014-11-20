@@ -18,7 +18,7 @@ I've created a template for unit tests when using NUnit, I find it's really usef
 
 	1. Having a single point of object creation means it's really, really easy when refactoring signatures (especially if you don't have ReSharper)
 	2. It reads well and it's intent is pretty clear i.e. the naming of the tests is very close to natural language 
-	3. The [SetUp] and [TearDown] methods allow you to adequately prepare before each test which is really handy if you're testing something to do with IO
+	3. The [SetUp] and [TearDown] methods allow you to adequately prepare before each test which is useful if you're testing something like IO
 
 There's no reason this can't be extended or even have this as a generic base class either.
 
