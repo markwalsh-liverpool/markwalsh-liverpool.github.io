@@ -81,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : markwalshliverpool
+      short_name : markwalsh
     #livefyre :
     #  site_id : 123
     #intensedebate :
