@@ -43,7 +43,7 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
 		<h4>Other Recent Posts</h4>
-    {% site.posts.count > 1 %}
+    {% if site.posts.count > 1 %}
   		{% for post in site.posts offset:1 limit:2 %}
   			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   		{% endfor %}
