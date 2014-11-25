@@ -137,9 +137,7 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
     }
 {% endhighlight %}
 
-
-<div class="bs-callout bs-callout-warning">
+<div class="alertcallout callout-warning">
 <h4>Attention</h4>
 If there is any other way, please let me know in the comments below
 </div>
-
