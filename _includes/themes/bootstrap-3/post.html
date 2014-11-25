@@ -7,13 +7,18 @@
 
 	<div class="text-right">
 		
-	   	<ul class="list-inline">
-	   	<span>Share via:</span>
-		  <li class="twitter"><a href="https://www.twitter.com/share?text={{ page.title }}%20via%20@MarkChrisWalsh&url={{ site.production_url }}{{ page.url | uri_escape }}" title="Share on Twitter">Twitter</a></li>
-		</ul>
+	   
 	</div>
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
+      <span class="pull-right">
+
+      	<ul class="list-inline">
+	   	<span>Share via:</span>
+		  <li class="twitter"><a href="https://www.twitter.com/share?text={{ page.title }}%20via%20@MarkChrisWalsh&url={{ site.production_url }}{{ page.url | uri_escape }}" title="Share on Twitter">Twitter</a></li>
+		</ul>
+		
+      </span>
     </div>
     <div class="content">
       {{ content }}
