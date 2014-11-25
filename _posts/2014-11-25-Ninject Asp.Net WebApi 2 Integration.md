@@ -27,7 +27,7 @@ I ran into a problem today where I needed to inject dependencies into a handler.
     }
 {% endhighlight %}
 
-After much research, it doesn't appear people either use Ninject here or they don't document it...anyway, I decided to add a method to get the created kernel from the NinjectWebCommon class called **GetKernel**.  Please note that this snippet also includes the declaration for a NinjectDependencyResolver.
+After much research, it doesn't appear people use Ninject here...or they don't document it...anyway, I decided to add a method to get the created kernel from the NinjectWebCommon class called **GetKernel**.  Please note that this snippet also includes the declaration for a NinjectDependencyResolver.
 
 {% highlight csharp %}
     public static class NinjectWebCommon
@@ -124,6 +124,7 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
     {
         public static void Register(HttpConfiguration config)
         {
+        	// Getting the kernel via the exposed method
             var kernel = NinjectWebCommon.GetKernel();
 
             // Web API routes
@@ -132,6 +133,7 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
             config.Routes.MapHttpRoute("DefaultApi", "api/{controller}/{id}", new {id = RouteParameter.Optional}
                 );
 
+            // Manually injecting the bound instance
             config.Services.Replace(typeof (IExceptionHandler), kernel.Get<IExceptionHandler>());
         }
     }
