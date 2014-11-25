@@ -16,9 +16,11 @@ Visual Studio 2008-2013, NUnit (Obtained via Nuget), Moq (Obtained via Nuget)
 
 I've created a template for unit tests when using NUnit, I find it's really useful because it covers 95% of testing scenarios I encounter on a day-to-day basis.  I've followed the Given-When-Then terminology (Same as Arrange-Act-Assert) as it feels more natural to me.  It's always essentially down to preference but I like using this as a template because:
 
-	1. Having a single point of object creation means it's really, really easy when refactoring signatures (especially if you don't have ReSharper)
-	2. It reads well and it's intent is pretty clear i.e. the naming of the tests is very close to natural language 
-	3. The [SetUp] and [TearDown] methods allow you to adequately prepare before each test which is useful if you're testing something like IO
+- Having a single point of object creation means it's really, really easy when refactoring signatures (especially if you don't have ReSharper)
+
+- It reads well and it's intent is pretty clear i.e. the naming of the tests is very close to natural language 
+
+- The [SetUp] and [TearDown] methods allow you to adequately prepare before each test which is useful if you're testing something like IO
 
 There's no reason this can't be extended or even have this as a generic base class either.
 
