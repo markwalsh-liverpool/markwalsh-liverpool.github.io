@@ -3,7 +3,7 @@ layout: post
 category : development
 tagline: 
 tags : [development, c#, ninject]
-title : Ninject Asp.Net WebApi 2 Integration
+title : Ninject ASP.Net WebApi 2 Integration
 ---
 {% include JB/setup %}
 
