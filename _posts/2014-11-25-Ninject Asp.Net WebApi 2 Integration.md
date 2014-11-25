@@ -9,7 +9,7 @@ title : Ninject Asp.Net WebApi 2 Integration
 
 ## Overview
 
-I ran into a problem today where I needed to inject dependencies into a handler.  Typically, you don't really have access to the kernel here and I saw this as a problem as my handler had it's own dependencies which needed to be resolved.
+I ran into a problem today where I needed to inject dependencies into a handler.  Typically, you don't really have access to the kernel here and I saw this as a problem as my handler had its own dependencies which needed to be resolved.
 
 {% highlight csharp %}
 	public class WebApiConfig
@@ -117,7 +117,7 @@ After much research, it doesn't appear people either use Ninject here or they do
     }
 {% endhighlight %}
 
-Now I've exposed my kernel via this method I can then use it in the WebApiConfig class
+Now I've exposed my kernel via this method I can then use it in the WebApiConfig class.  This doesn't seem ideal but there seems to be tons of different ways to configure Ninject dependant on the type of web project you're creating.
 
 {% highlight csharp %}
   public class WebApiConfig
@@ -138,5 +138,5 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
 {% endhighlight %}
 
 <div class="callout callout-warning">
-<strong>Attention!</strong> If there's a between way of doing this, please let me know in the comments below
+<strong>Attention!</strong> If there's a better way of doing this, please let me know in the comments below
 </div>
