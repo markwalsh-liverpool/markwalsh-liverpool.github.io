@@ -47,7 +47,7 @@ namespace NUnitExample
         }
 
         [TearDown]
-        public void TearDownAfterTest()
+        public void TearDownAfterAllTests()
         {
             // Run code here which will tear down after each test i.e. Remove files created etc
         }
