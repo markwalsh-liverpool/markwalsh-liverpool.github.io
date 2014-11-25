@@ -137,6 +137,6 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
     }
 {% endhighlight %}
 
-<div class="callout callout-success">
-<strong>Well done!</strong> You successfully read this important alert message.
+<div class="callout callout-warning">
+<strong>Attention!</strong> If there's a between way of doing this, please let me know in the comments below
 </div>
