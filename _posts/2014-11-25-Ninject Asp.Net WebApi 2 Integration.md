@@ -140,5 +140,5 @@ Now I've exposed my kernel via this method I can then use it in the WebApiConfig
 {% endhighlight %}
 
 <div class="callout callout-warning">
-<strong>Attention!</strong> If there's a better way of doing this, please let me know in the comments below
+<strong>Update!</strong> I noticed after writing this tutorial, you don't have to add the ExceptionHandler to the services within the WebApiConfig class.  It's probably using reflection to check for any classes implementing IExceptionHandler and using that implementation.  Needless to say, there might still be instances where having the kernel in the WebApiConfig is neccessary so it's good to note the above method.
 </div>
