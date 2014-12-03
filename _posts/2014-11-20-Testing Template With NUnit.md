@@ -82,3 +82,5 @@ namespace NUnitExample
         }
     }
 {% endhighlight %}
+
+If anyone has any better way to achieve the same results, please let me know in the comments!
