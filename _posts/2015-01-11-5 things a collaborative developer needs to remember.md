@@ -8,8 +8,6 @@ description: A sensible checklist for every developer to bear in mind
 ---
 {% include JB/setup %}
 
-## Overview
-
 I've had about 5 years commercial experience in development and I've worked for various companies in a collaborative manner and I'd like to share some rules of thumb I've tried to adopt.  Some of these are specific to compliable languages.
 
 ### 1. Only check in code that builds/runs
