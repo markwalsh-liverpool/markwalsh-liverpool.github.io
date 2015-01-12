@@ -12,7 +12,7 @@ I've had about 5 years commercial experience in development and I've worked for 
 
 ### 1. Only check in code that builds/runs
 
- This one is fairly obvious; no one wants to check out broken code.  If possible, I checkout the code to a new location on the file system and check it builds/runs...which leads me onto the next point
+ This one is fairly obvious; no one wants to check out broken code.  If possible, I checkout the code to a new location on the file system and check it builds/runs...which leads me onto the next point.
 
 ### 2. Do not use absolute paths
 
