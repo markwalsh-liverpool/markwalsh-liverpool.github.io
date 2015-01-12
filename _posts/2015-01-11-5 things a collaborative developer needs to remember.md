@@ -3,12 +3,12 @@ layout: post
 category : development
 tagline: 
 tags : [methodology]
-title : 5 things a collaborative developer needs to remember
+title : Things a collaborative developer needs to remember
 description: A sensible checklist for every developer to bear in mind
 ---
 {% include JB/setup %}
 
-I've had about 5 years commercial experience in development and I've worked for various companies in a collaborative manner and I'd like to share some rules of thumb I've tried to adopt.  Some of these are specific to compilable languages.
+I've had about 5 years commercial experience in development and I've worked for various companies in a collaborative manner and I'd like to share some rules of thumb I've tried to adopt.  Some of these are specific to compiled languages.  The length of this list is definitely going to change which is why I've deliberately omitted the number of items from the title.  This post is specific to developers in local teams and not so much for the OpenSource community although all/most of these points still apply.
 
 ### 1. Only check in code that builds/runs
 
