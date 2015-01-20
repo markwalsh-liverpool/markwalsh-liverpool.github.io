@@ -1,3 +1,5 @@
+require 'date'
+
 module Jekyll
   class RenderAgeTag < Liquid::Tag
 
