@@ -49,6 +49,6 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   		{% endfor %}
 		{% endif %}
 	</ul>
-	<p>{% render_age Date.new(1988,1,4) %}</p>
+	<p>{% renderage Date.new(1988,1,4) %}</p>
 </div>
 
