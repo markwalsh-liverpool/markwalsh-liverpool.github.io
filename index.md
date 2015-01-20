@@ -49,11 +49,5 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   		{% endfor %}
 		{% endif %}
 	</ul>
-
-	{% 
-	    dob = DateTime.new(1988, 1, 4)
-		now = Time.now.utc.to_date
-  		{{now.year - dob.year - ((now.month > dob.month || (now.month == dob.month && now.day >= dob.day)) ? 0 : 1)}}
-	%}
 </div>
 
