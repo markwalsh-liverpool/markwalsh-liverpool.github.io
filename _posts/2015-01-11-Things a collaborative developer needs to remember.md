@@ -57,11 +57,16 @@ The alternative is writing maintainable, readable clean code, only commenting wh
         }
 {% endhighlight %}
 
-Using comments for this would, in my opinion, be completely unnecessary.  This isn't the case when using hacks, especially hacks around framework/language limitations as these need to be explained to the audience.
+Using comments for this would, in my opinion, be completely unnecessary.  This isn't the case when using hacks, especially hacks around framework/language limitations as these need to be explained to the audience.  Other than that, why are code comments ever needed?
 
 ### 5. Some documentation is needed such as high level communication documentation
 
 If you've got components talking to each other in most codebases this isn't immediately apparent.  A high level flowchart or component diagram showing communication between modules makes it a lot easier as a developer to get to grips with a codebase.  Ideally, I'd like to be able to checkout a codebase and get the basic gist of architecture and dataflow through a small amount of documentation. 
+
+### 6. Forcing tooling
+
+Don't force tooling down someones throat.  Their code = their tools.  Standardisation is important on the end product only, not the route. 
+
 
 
 
