@@ -67,7 +67,7 @@ If you've got components talking to each other in most codebases this isn't imme
 
 Don't force tooling down someones throat.  Their code = their tools.  Standardisation is important on the end product only, not the route. 
 
-
+### 7. Something else
 
 
 
