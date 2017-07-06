@@ -49,9 +49,10 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
 {% assign diffSeconds = nowTimestamp | minus: dateStart %}
 
 {% comment %} difference in days {% endcomment %}
-{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24  %}
+{% assign diffYears = diffDays | divided_by: 365 | floor %}
 
-<p>difference in days = {{ diffDays }}</p>
+<p>difference in years = {{ diffYears }}</p>
   <br>	
   <ul style="padding: 0 !important;margin: 0 !important;list-style-type: none;">
 		<h4>Latest Post</h4>
