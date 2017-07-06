@@ -5,7 +5,7 @@ tagline:
 description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascript
 ---
 {% include JB/setup %}
-{% include JB/age_helper %}
+{% include age_helper %}
 
 <div class="row text-center">
   <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
@@ -39,8 +39,7 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <span title="Redis" class="devicons devicons-redis"></span>
   <br>
   <h3>Bio</h3>
-  <p>29, Liverpool, United Kingdom</p>
-<p>difference in years = {{ myAge }}</p>
+  <p>{{ myAge }}, Liverpool, United Kingdom</p>
   <br>	
   <ul style="padding: 0 !important;margin: 0 !important;list-style-type: none;">
 		<h4>Latest Post</h4>
