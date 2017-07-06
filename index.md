@@ -39,7 +39,8 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <span title="Redis" class="devicons devicons-redis"></span>
   <br>
   <h3>Bio</h3>
-  <p>27, Liverpool, United Kingdom</p>
+  <p>29, Liverpool, United Kingdom</p>
+  <p>{{'now' | date: "%s" | minus : 604800 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20"}}</p>
   <br>	
   <ul style="padding: 0 !important;margin: 0 !important;list-style-type: none;">
 		<h4>Latest Post</h4>
