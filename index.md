@@ -17,7 +17,10 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <h3>XP</h3>
   <span title=".Net" class="devicons devicons-netmagazine"></span>
   <span title="Visual Studio" class="devicons devicons-visualstudio"></span>
+  <span title="AWS" class="devicons devicons-aws"></span>
   <span title="MSSQL" class="devicons devicons-msql_server"></span>
+  <span title="Ember" class="devicons devicons-ember"></span>
+  <span title="Node" class="devicons devicons-nodejs"></span>
   <span title="Github" class="devicons devicons-github_full"></span>
   <span title="MongoDb" class="devicons devicons-mongodb"></span>
   <span title="Ruby" class="devicons devicons-ruby_rough"></span>
@@ -33,6 +36,7 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <span title="Javascript" class="devicons devicons-javascript"></span>
   <span title="JQuery" class="devicons devicons-jquery"></span>
   <span title="AngularJS" class="devicons devicons-angular"></span>
+  <span title="Redis" class="devicons devicons-redis"></span>
   <br>
   <h3>Bio</h3>
   <p>27, Liverpool, United Kingdom</p>
