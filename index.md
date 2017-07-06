@@ -40,8 +40,18 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <br>
   <h3>Bio</h3>
   <p>29, Liverpool, United Kingdom</p>
-  <p>{{ "now" | date: "%s" | minus : days | date: "%Y, %m, %-d %Z" }}</p>
-  <p>{{'now' | date: "%s" | minus : 568252800 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20"}}</p>
+{% comment %} convert our dates to Number of seconds 
+              since 1970-01-01 00:00:00 UTC {% endcomment %}
+{% assign dateStart = product.created_at | date: '%s' %}
+{% assign nowTimestamp = 'now' | date: '%s' %}
+
+{% comment %} difference in seconds {% endcomment %}
+{% assign diffSeconds = nowTimestamp | minus: dateStart %}
+
+{% comment %} difference in days {% endcomment %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+
+<p>difference in days = {{ diffDays }}</p>
   <br>	
   <ul style="padding: 0 !important;margin: 0 !important;list-style-type: none;">
 		<h4>Latest Post</h4>
