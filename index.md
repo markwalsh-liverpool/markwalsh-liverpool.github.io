@@ -5,7 +5,7 @@ tagline:
 description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascript
 ---
 {% include JB/setup %}
-
+{% include JB/age_helper %}
 
 <div class="row text-center">
   <img src="{{ BASE_PATH }}/images/me.png" alt="Me" />
@@ -40,19 +40,7 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <br>
   <h3>Bio</h3>
   <p>29, Liverpool, United Kingdom</p>
-{% comment %} convert our dates to Number of seconds 
-              since 1970-01-01 00:00:00 UTC {% endcomment %}
-{% assign dateStart = "January 4, 1988" | date: '%s' %}
-{% assign nowTimestamp = 'now' | date: '%s' %}
-
-{% comment %} difference in seconds {% endcomment %}
-{% assign diffSeconds = nowTimestamp | minus: dateStart %}
-
-{% comment %} difference in days {% endcomment %}
-{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24  %}
-{% assign diffYears = diffDays | divided_by: 365 | floor %}
-
-<p>difference in years = {{ diffYears }}</p>
+<p>difference in years = {{ myAge }}</p>
   <br>	
   <ul style="padding: 0 !important;margin: 0 !important;list-style-type: none;">
 		<h4>Latest Post</h4>

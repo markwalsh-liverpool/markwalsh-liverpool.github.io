@@ -1,0 +1,5 @@
+{% assign dateStart = "January 4, 1988" | date: '%s' %}
+{% assign nowTimestamp = 'now' | date: '%s' %}
+{% assign diffSeconds = nowTimestamp | minus: dateStart %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24  %}
+{% assign myAge = diffDays | divided_by: 365 | floor %}
