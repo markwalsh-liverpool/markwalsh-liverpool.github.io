@@ -42,14 +42,14 @@ description: Blog of Mark Walsh, Liverpool based developer using .Net, Javascrip
   <p>29, Liverpool, United Kingdom</p>
 {% comment %} convert our dates to Number of seconds 
               since 1970-01-01 00:00:00 UTC {% endcomment %}
-{% assign dateStart = "January 4, 1988" | date: '%d' %}
-{% assign nowTimestamp = 'now' | date: '%d' %}
+{% assign dateStart = "January 4, 1988" | date: '%s' %}
+{% assign nowTimestamp = 'now' | date: '%s' %}
 
 {% comment %} difference in seconds {% endcomment %}
 {% assign diffSeconds = nowTimestamp | minus: dateStart %}
 
 {% comment %} difference in days {% endcomment %}
-{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+{% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
 
 <p>difference in days = {{ diffDays }}</p>
   <br>	
